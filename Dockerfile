@@ -1,6 +1,6 @@
 FROM node:24-alpine
 
-WORKDIR /excalidraw-room
+WORKDIR /home/node/app
 
 # Enable Corepack to use the pinned Yarn version from package.json (packageManager field)
 RUN corepack enable

@@ -1,6 +1,6 @@
 # Development compose file.
 # Usage:
-#   docker compose -f docker-compose.dev.yml up --build
+#   docker compose up --build
 # (or docker-compose depending on your Docker version)
 # This will:
 #  - Build the existing Dockerfile
@@ -26,7 +26,7 @@ services:
 
     # Mount project for live edits; keep node_modules inside a named volume so we don't clobber it
     volumes:
-      - ./:/excalidraw-room
+      - ./:/home/node/app
 
     ports:
       - "3002:3002"
