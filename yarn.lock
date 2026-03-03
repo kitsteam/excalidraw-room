@@ -1750,13 +1750,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fs.realpath@npm:^1.0.0":
-  version: 1.0.0
-  resolution: "fs.realpath@npm:1.0.0"
-  checksum: 10c6/14306f3688956c25795a5781fe858ce2e7ac6f5ca37a6361471b9cc2f1f683010e08ad8bd11402128de3bc47d6d844eb5c36e90b7bea6d040e7de76dd1a0458e
-  languageName: node
-  linkType: hard
-
 "fsevents@npm:~2.3.1":
   version: 2.3.2
   resolution: "fsevents@npm:2.3.2"
@@ -1855,9 +1848,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"glob@npm:^10.2.2":
-  version: 10.4.5
-  resolution: "glob@npm:10.4.5"
+"glob@npm:^10.5.0":
+  version: 10.5.0
+  resolution: "glob@npm:10.5.0"
   dependencies:
     foreground-child: "npm:^3.1.0"
     jackspeak: "npm:^3.1.2"
@@ -1867,21 +1860,7 @@ __metadata:
     path-scurry: "npm:^1.11.1"
   bin:
     glob: dist/esm/bin.mjs
-  checksum: 10c6/508e1455a5295b57b4029b4fab542b1edb6d0993c2b675be8adc9c6806bc30a24a298e3038e58ec6b33717d8032dfa0455b101966a14c20ffeb1f80c6b40caeb
-  languageName: node
-  linkType: hard
-
-"glob@npm:^7.1.3":
-  version: 7.1.6
-  resolution: "glob@npm:7.1.6"
-  dependencies:
-    fs.realpath: "npm:^1.0.0"
-    inflight: "npm:^1.0.4"
-    inherits: "npm:2"
-    minimatch: "npm:^3.0.4"
-    once: "npm:^1.3.0"
-    path-is-absolute: "npm:^1.0.0"
-  checksum: 10c6/37f7e2e096114f36d14ad05e3f4e3318315f7cebfcbc8473322d98fa155473fdab37a5d384976ba50fc4e137ed1c45d8e2447e87ea15f1562b3b21ce91320056
+  checksum: 10c6/c45185e9d4a281ab6eb03643af759c37b51b7b10047a9dbf90e1aa4af8fd423d6e148d0b6baf50e9a6a281b86f64ee921321811a17eab28731ada971ad405b18
   languageName: node
   linkType: hard
 
@@ -2003,17 +1982,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"inflight@npm:^1.0.4":
-  version: 1.0.6
-  resolution: "inflight@npm:1.0.6"
-  dependencies:
-    once: "npm:^1.3.0"
-    wrappy: "npm:1"
-  checksum: 10c6/c043c924a7ed957dd57bd54ed64b63e420776ffa598b0aec1391056c73087de62a75d5339e412c201feb6a8c30b3396923a7533e9845aeb8371d03f23009c1b4
-  languageName: node
-  linkType: hard
-
-"inherits@npm:2, inherits@npm:~2.0.4":
+"inherits@npm:~2.0.4":
   version: 2.0.4
   resolution: "inherits@npm:2.0.4"
   checksum: 10c6/9660794f888d4e16c224eb9f1ad65ad05a1851c659f5a743f71075ec14d60782e21bee4168ef0f685a4f22d8f009cdff70470afdf2bd318ff96334ca13886b1d
@@ -2251,12 +2220,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"minimatch@npm:^3.1.2":
-  version: 3.1.2
-  resolution: "minimatch@npm:3.1.2"
+"minimatch@npm:^3.1.5":
+  version: 3.1.5
+  resolution: "minimatch@npm:3.1.5"
   dependencies:
     brace-expansion: "npm:^1.1.7"
-  checksum: 10c6/2ef1a19869e87ad2a99d694385368a8ac17a94cce23cf500f464a6b03822d43ab8a3bf23ed852af4dd994e1d2398c493c62e91765b6bdc09069b8cf505e15d3a
+  checksum: 10c6/00296192c0520a085c8d225dd945e37c3c430d051666cc102a89c455eb2fefc151b33fd5863c744131490432be1d6b73584e978bc26f948af4908430f9729ae0
   languageName: node
   linkType: hard
 
@@ -2457,7 +2426,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"once@npm:^1.3.0, once@npm:^1.4.0":
+"once@npm:^1.4.0":
   version: 1.4.0
   resolution: "once@npm:1.4.0"
   dependencies:
@@ -2523,13 +2492,6 @@ __metadata:
   version: 4.0.0
   resolution: "path-exists@npm:4.0.0"
   checksum: 10c6/2cd6cdcddeb8e308d213e42d16cafa906398438ed95b188ddf0252b449757fb8f4dae1863b12cb0c5f379405390565479756c583da21af34fb13a2425f70ff8d
-  languageName: node
-  linkType: hard
-
-"path-is-absolute@npm:^1.0.0":
-  version: 1.0.1
-  resolution: "path-is-absolute@npm:1.0.1"
-  checksum: 10c6/8aab18c96f786399ea07dbda74c511e062939f72ad3c975efba15ffb5dc4b50e5cdb80d20d50d138e97e179ec9acf74ccbe99829b64c7af7f01c5bcfaaa77344
   languageName: node
   linkType: hard
 
