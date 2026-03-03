@@ -908,12 +908,12 @@ __metadata:
   linkType: hard
 
 "brace-expansion@npm:^1.1.7":
-  version: 1.1.11
-  resolution: "brace-expansion@npm:1.1.11"
+  version: 1.1.12
+  resolution: "brace-expansion@npm:1.1.12"
   dependencies:
     balanced-match: "npm:^1.0.0"
     concat-map: "npm:0.0.1"
-  checksum: 10c6/8c9af81da77c6dc926f0ba862c964ea242a0350979875a2f53c7e5fc63bf7db40a97f82f23da7b06807bd4cda0467781e04422017d47afbf176862a07886868c
+  checksum: 10c6/95a1d19b6d99929491e65e624bd3bfc810707cf3b168d4ee2d11ab6ac6ac5fef73518980e26e38b7016da1026630be7317b0664cebcd456f5d75dde74b8460de
   languageName: node
   linkType: hard
 
@@ -1149,9 +1149,9 @@ __metadata:
   linkType: hard
 
 "diff@npm:^4.0.1":
-  version: 4.0.2
-  resolution: "diff@npm:4.0.2"
-  checksum: 10c6/d69359af80a690310396772511e610c3121f855010511b278337c968139e0b366a02cb6f7b1b09f4fd88a712115c400fa94ef7b146468e168b0cdccf0958e9aa
+  version: 4.0.4
+  resolution: "diff@npm:4.0.4"
+  checksum: 10c6/2638b1f3874ae9650b119a622af69a8be1aeed0d0b33a62bebc1abe7c987708d2c8335e5b7f2dc772cae585cc05a5466ea970d8dcafd1f9a308f04bfc216e906
   languageName: node
   linkType: hard
 
@@ -2351,21 +2351,21 @@ __metadata:
   languageName: node
   linkType: hard
 
+"minizlib@npm:^3.1.0":
+  version: 3.1.0
+  resolution: "minizlib@npm:3.1.0"
+  dependencies:
+    minipass: "npm:^7.1.2"
+  checksum: 10c6/d12d5d57fedb59fd8b5c76d6b14f640c140acce8413aaee5de5d81b378623df316ff9a20e49ab929b33332e3b4658b398b885d5debcc9ee970f19607f5a7faa5
+  languageName: node
+  linkType: hard
+
 "mkdirp@npm:^1.0.4":
   version: 1.0.4
   resolution: "mkdirp@npm:1.0.4"
   bin:
     mkdirp: bin/cmd.js
   checksum: 10c6/f888239af491c4c23f290eb02d9b3fcd1cfbd866259186dc7d7e92ac304b4e965b9c8436426ddb162983e4e7f87473a5b15568ccefdaabcb631884ba1cb31022
-  languageName: node
-  linkType: hard
-
-"mkdirp@npm:^3.0.1":
-  version: 3.0.1
-  resolution: "mkdirp@npm:3.0.1"
-  bin:
-    mkdirp: dist/cjs/src/bin.js
-  checksum: 10c6/2af83cb994ce89c938270ecf9fe6ad6b1b482da60385f237dc6223d0230c340b832e65d9bd378fca99dea3e9dba6beb7c9a94f251997884582e89aaa9ca08dde
   languageName: node
   linkType: hard
 
@@ -2549,9 +2549,9 @@ __metadata:
   linkType: hard
 
 "path-parse@npm:^1.0.6":
-  version: 1.0.6
-  resolution: "path-parse@npm:1.0.6"
-  checksum: 10c6/c871d78778b0de7f146d94d3ca36e57a3860482d2e3f7c7af6d3bc4522574658c651712fa7810ab284ccb80810c63952ab53b1fe928a6ed202a523c5bae2d8bc
+  version: 1.0.7
+  resolution: "path-parse@npm:1.0.7"
+  checksum: 10c6/8f496eb8ae0201ce7b5b839a1bf8b8e23c5d81b690f4e3900fe32b9be596e61d37d49c70d41c5921ded4ffd47cbdffa86d29c43194c123986cc9a9fcf71241f3
   languageName: node
   linkType: hard
 
@@ -2894,12 +2894,12 @@ __metadata:
   linkType: hard
 
 "socket.io-parser@npm:~4.2.4":
-  version: 4.2.4
-  resolution: "socket.io-parser@npm:4.2.4"
+  version: 4.2.5
+  resolution: "socket.io-parser@npm:4.2.5"
   dependencies:
     "@socket.io/component-emitter": "npm:~3.1.0"
-    debug: "npm:~4.3.1"
-  checksum: 10c6/cc39a07c2a39b3a2648c469f629d59c94431e00a70693427f25447a3cd975f498ee4d7a1395f49da413b4c3f72008ba41d8a4e1f881e44654db3d4b0836f2155
+    debug: "npm:~4.4.1"
+  checksum: 10c6/948b32da2c38d535cc5d6c7fd597fb0f17c1734bef49f155ba78bf7694cd6d9f8af2c43f2421fb5cbf8666f410fd3e7886644b82f424d67c64ec93292a6f552c
   languageName: node
   linkType: hard
 
@@ -3056,16 +3056,15 @@ __metadata:
   linkType: hard
 
 "tar@npm:^7.4.3":
-  version: 7.4.3
-  resolution: "tar@npm:7.4.3"
+  version: 7.5.9
+  resolution: "tar@npm:7.5.9"
   dependencies:
     "@isaacs/fs-minipass": "npm:^4.0.0"
     chownr: "npm:^3.0.0"
     minipass: "npm:^7.1.2"
-    minizlib: "npm:^3.0.1"
-    mkdirp: "npm:^3.0.1"
+    minizlib: "npm:^3.1.0"
     yallist: "npm:^5.0.0"
-  checksum: 10c6/2393f406baf8404c85386e09582e3225a543afaebf931508ef411294e5a2275a00060427c4bd8e8f2b8dbb5210db628c966cec2e1b45662a420f19b1d5ea82cb
+  checksum: 10c6/77dd25a7d97fcdd87b1a1fb37a83a220a19446e4aa20ad85f55cad5ffdc23adb02b4016bb215ef2f998d41fd909bce429b78a5f26018c1fbe94e2657e495d90e
   languageName: node
   linkType: hard
 
