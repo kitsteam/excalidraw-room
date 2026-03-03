@@ -2,7 +2,6 @@ import debug from "debug";
 import express from "express";
 import http from "http";
 import { Server as SocketIO } from "socket.io";
-import dotenv from "dotenv";
 
 type UserToFollow = {
   socketId: string;
