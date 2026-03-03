@@ -2,7 +2,6 @@ import debug from "debug";
 import express from "express";
 import http from "http";
 import { Server as SocketIO } from "socket.io";
-import dotenv from "dotenv";
 
 type UserToFollow = {
   socketId: string;
@@ -16,12 +15,6 @@ type OnUserFollowedPayload = {
 const serverDebug = debug("server");
 const ioDebug = debug("io");
 const socketDebug = debug("socket");
-
-dotenv.config(
-  process.env.NODE_ENV !== "development"
-    ? { path: ".env.production" }
-    : { path: ".env.development" },
-);
 
 const app = express();
 const port =

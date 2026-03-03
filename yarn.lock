@@ -1155,13 +1155,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dotenv@npm:^17.3.1":
-  version: 17.3.1
-  resolution: "dotenv@npm:17.3.1"
-  checksum: 10c6/e27271fcb540adc46d1dd55a9ed2339035200a5a7e5f8dce82ae8d4abf2445cf7434cbfcace7faffd173ba4461382e44a08edba59f7b5a25eac48ed3947ac355
-  languageName: node
-  linkType: hard
-
 "dunder-proto@npm:^1.0.1":
   version: 1.0.1
   resolution: "dunder-proto@npm:1.0.1"
@@ -1569,7 +1562,6 @@ __metadata:
     "@typescript-eslint/parser": "npm:^8.56.1"
     cross-env: "npm:^10.1.0"
     debug: "npm:^4.4.3"
-    dotenv: "npm:^17.3.1"
     eslint: "npm:^10.0.2"
     eslint-config-prettier: "npm:^10.1.8"
     eslint-plugin-prettier: "npm:^5.5.5"
