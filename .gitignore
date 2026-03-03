@@ -107,3 +107,6 @@ dist
 .DS_Store
 dist
 .yarn/install-state.gz
+
+docker-compose.override.yml
+.claude/
