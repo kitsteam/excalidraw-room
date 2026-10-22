@@ -1,4 +1,7 @@
-FROM node:24-alpine AS development
+ARG NODE_VERSION=24.22.1
+ARG ALPINE_VERSION=3.24
+
+FROM node:${NODE_VERSION}-alpine${ALPINE_VERSION} AS development
 
 WORKDIR /home/node/app
 
@@ -8,7 +11,7 @@ RUN corepack enable
 COPY package.json yarn.lock ./
 RUN yarn
 
-FROM node:24-alpine AS production_buildstage
+FROM node:${NODE_VERSION}-alpine${ALPINE_VERSION} AS production_buildstage
 ENV NODE_ENV=production
 
 WORKDIR /home/node/app
@@ -23,7 +26,7 @@ COPY tsconfig.json ./
 COPY src ./src
 RUN yarn build
 
-FROM node:24-alpine AS production
+FROM node:${NODE_VERSION}-alpine${ALPINE_VERSION} AS production
 ENV NODE_ENV=production
 ENV PM2_HOME=/home/node/app-pm2/.pm2
 
