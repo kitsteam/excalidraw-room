@@ -1,0 +1,23 @@
+name: Setup Yarn + Node
+description: Activate Node + Yarn via corepack, restore the Yarn cache, and run an immutable install.
+
+runs:
+  using: composite
+  steps:
+    - uses: actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f # v6
+      with:
+        node-version: "24"
+
+    # corepack reads the Yarn version from the packageManager field in package.json.
+    - shell: bash
+      run: corepack enable
+
+    - uses: actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7 # v5
+      with:
+        path: ~/.yarn/berry/cache
+        key: yarn-cache-${{ runner.os }}-${{ hashFiles('yarn.lock') }}
+        restore-keys: |
+          yarn-cache-${{ runner.os }}-
+
+    - shell: bash
+      run: yarn install --immutable
